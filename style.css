@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.container {
+  width: 100%;
+  display: block;
+}
+.container .top-header {
+  background-color: rgb(17, 3, 44);
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  margin: 0 auto;
+}
+.container .top-header .menu {
+  display: flex;
+  width: 20%;
+  padding: 10px;
+  margin-right: 8rem;
+  justify-content: space-between;
+}
+.container .top-header .menu li {
+  color: white;
+  cursor: pointer;
+}
+.container .middle-header {
+  background-color: rgb(32, 23, 73);
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.container .middle-header nav {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .middle-header nav ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .middle-header nav ul li {
+  color: #fff;
+  font-weight: bold;
+}
+.container .middle-header nav ul li img {
+  width: 200px;
+}
+.container .middle-header nav button {
+  width: 150px;
+  padding: 12px;
+  border-radius: 30px;
+  border: 2px solid #000;
+  font-weight: bold;
+  color: #fff;
+  margin: 1rem;
+}
+.container .middle-header nav .contact {
+  background: none;
+  border: 2px solid #585fa2;
+}
+.container .middle-header nav .contact:hover {
+  background-color: #585fa2;
+}
+.container .middle-header nav .views {
+  background: #e7005e;
+}
+
+.main {
+  width: 100%;
+  background: radial-gradient(39.56% 48.29% at 20% 115.78%, #ff1675 0%, rgba(255, 22, 121, 0) 100%), radial-gradient(54.23% 74.52% at 69.72% -10.08%, #ff1675 0%, rgba(255, 22, 121, 0) 100%), radial-gradient(21.67% 31.7% at 39.72% 107.79%, rgba(74, 51, 209, 0.8) 0%, rgba(74, 51, 209, 0) 100%), radial-gradient(40.08% 51.33% at 85.83% 24.14%, rgba(74, 51, 209, 0.8) 0%, rgba(74, 51, 209, 0) 100%), #242145;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.main .hero {
+  width: 85%;
+  margin: 0 auto;
+  height: 90%;
+  background: rgba(8, 8, 8, 0.4);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
